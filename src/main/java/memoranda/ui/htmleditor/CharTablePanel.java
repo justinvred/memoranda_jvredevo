@@ -101,8 +101,8 @@ public class CharTablePanel extends JPanel {
             this.add(button, null);
         }
     }
-
-    class CharAction extends AbstractAction {
+//TASK 3-1 SMELL WITHIN A CLASS
+    /*class CharAction extends AbstractAction {
         CharAction(String name) {
             super(name);
             //putValue(Action.SHORT_DESCRIPTION, name);
@@ -114,6 +114,6 @@ public class CharTablePanel extends JPanel {
             if (s.length() == 2)
                 editor.setCaretPosition(editor.getCaretPosition()-1);
         }
-    }
+    }*/
 
 }
