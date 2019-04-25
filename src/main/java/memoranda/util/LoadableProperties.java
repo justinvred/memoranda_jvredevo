@@ -106,6 +106,11 @@ public class LoadableProperties extends Hashtable {
         }
 
     }
+    /*
+     * TASK 3-2 SMELL BETWEEN CLASSES 
+     * This is under the type feature envy. This class offered absolutely nothing
+     * and only manipulated data from the LoadableProperties class
+     */
     /*$Id: Context.java,v 1.3 2004/01/30 12:17:42 alexeya Exp $*/
     public static class Context {
         
